@@ -40,6 +40,10 @@ export default defineConfig({
       }
     }),
   ],
-  
+  resolve: {
+    alias: {
+      '~': '/app',
+    }
+  },
   base: '/weblog/',
 });
